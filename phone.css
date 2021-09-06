@@ -1,0 +1,58 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+#navbar{
+    flex-direction: column;
+}
+
+#nabar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+}
+
+#home{
+    height: 344px;
+    padding: 4px 200px;
+}
+
+#home::before{
+    height: 540px;
+}
+
+#home p{
+    font-size: 13px;
+}
+
+.h-primary{
+    font-size: 26px;
+}
+
+#service{
+    flex-direction: column;
+}
+
+.service-container{
+    height: 950px;
+}
+
+.service-container::before{
+    height: 820px;
+}
+
+#cart{
+
+    margin-right:700px;
+}
+
+#client{
+    flex-wrap: wrap;
+}
+
+#client img{
+    width: 130px;
+    padding: 30px;
+}
+

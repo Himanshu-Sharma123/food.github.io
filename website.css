@@ -1,0 +1,295 @@
+/*css Reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Css variables*/
+:root{
+    --navbar-height:59px;
+}
+
+/*navigation Bar*/
+        #navbar{
+            display: flex;
+            align-items: center;
+            position: sticky;
+            font-family: baloo bhai,cursive;
+            top: 0px;
+        }
+
+        #navbar::before{
+            content:"";
+            background-color: black;
+            position:absolute;
+            height: 100%;
+            width: 100%;
+            z-index:-1;
+            opacity: 0.4;
+            top: 0px;
+            left: 0px;
+        }
+
+        #cart{
+            float: right;
+            margin-left: 554px;
+        } 
+        #cart img{
+            height: 40px;
+        }
+     
+        #cart h2{
+            color: white;
+            font-family: baloo bhai,cursive;          
+        }
+
+        #cart h2 a:hover{
+            color: black;
+            background-color: white;
+            border-radius: 15px;
+            text-decoration:none;
+        }
+  /*logo and image*/
+        #logo{
+            margin: 35px 46px;
+            height: 20px;
+        }
+        #logo img{
+            height: 45px;
+            border-radius: 50px;
+
+        }
+        
+        .container{
+            display: flex;
+            margin: 6px;
+        }
+
+        .container ul{
+            display:flex;
+            margin-top:20px;
+ 
+                    }
+
+          .container ul li{
+            list-style:none;
+            color:black;
+            font-size:1.3rem;
+          }
+
+          .container ul li a{
+            display:block;
+            padding: 3px 20px;
+            color:white;
+            border-radius: 20px;
+            list-style:none;
+            text-decoration:none;
+          }
+
+          .container ul li a:hover{
+            color:black;
+            background-color:white;
+          }
+
+
+          /*Home Section*/
+
+          #home{
+              display: flex;
+              flex-direction: column;
+              padding: 4px 140px;
+              justify-content: center;
+              align-items: center;
+              height:559px;
+
+          }
+          #home::before{
+              content:"";
+              position: absolute;
+              background:url('../lily-banse--YHSwy6uqvk-unsplash\ \(1\).jpg')no-repeat center center/cover;
+              height: 100%;
+              width: 100%;
+              z-index: -1;
+              opacity: 0.85;
+              top: 0px;
+              left: 0px;
+          }
+
+          .h-primary{
+              font-family: baloo bhai,cursive;
+              font-size: 2.3rem;
+              padding: 25px;
+
+          }
+
+          .h-secondary{
+            font-family: bree serif,serif;
+            font-size: 1.2rem;
+            padding: 25px;
+        }
+
+          #home h1{
+              color:white;
+              text-align: center;
+              font-family: baloo bhai,cursive;
+          }
+
+          #home p{
+              font-size: 1.3rem;
+              text-align: center;
+              color:white;
+              font-family: baloo bhai,cursive;       
+          }
+
+          .btn{
+              padding: 8px 25px;
+              border-radius: 8px;
+              border: 2px solid white;
+              color: white;
+              background-color: rgb(219, 112, 62);
+              margin:20px;
+              font-size: 1.3rem;
+              cursor:pointer;
+          }
+
+          /*service container*/
+          .center{
+              text-align: center;
+          }
+          
+          #service{
+              margin: 23px;
+              display: flex;
+                }
+
+             .service-container{
+                    height: 460px;
+                }
+
+            .service-container::before{
+                content:"";
+                position: absolute;
+                background: url('../rachel-park-hrlvr2ZlUNk-unsplash.jpg')no-repeat center center/cover;
+                height: 72%;
+                width: 100%;
+                z-index: -1;
+                opacity: 0.8;
+                left: 0px;
+                top: 660px;
+            }
+
+
+         #service .box{
+            border: 2px solid brown;
+            margin: 5px;
+            border-radius: 23px;
+            background-color:rgb(218, 198, 198);
+               }
+
+         #service .box img{
+              height: 156px; 
+              margin: auto;
+              display: block;
+              padding: 10px; 
+              height: 134px;
+              width: 185px;
+              border-radius: 23px;    
+          }
+
+          /*client-section*/
+
+          #client{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+          }
+
+          .client-section{
+              
+                        }
+
+          #client img{
+              height: 145px;
+              border-radius: 40px;
+          }
+
+          .client-item{
+              padding: 34px;
+          }
+
+          .client-section::before{
+              content:"";
+              position: absolute;
+              background:url('../contact.jpg')no-repeat center center/cover;
+              height: 99%;
+              width:100%;
+              z-index: -1;
+              opacity: 0.8;
+              
+          }
+
+          /*contact section*/
+             #contact-section{
+                 position: relative;
+                 height: 550px;
+             }
+
+
+          #contact-section::before{
+              content: "";
+              position: absolute;
+              background: url('../22-222264_clip-art-fast-online-ordering-fried-food-delivery.png')no-repeat center center/cover;
+              height: 100%;
+              width: 100%;
+              z-index: -1;
+              opacity: 0.7;
+          }
+
+          .contact-box{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              padding-bottom: 34px;
+
+          }
+
+          .contact-box input,
+          .contact-box textarea{
+              width: 100%;
+              padding: 0.3rem;
+              border-radius: 10px;
+              text-align: center;
+              font-size: 1rem;
+          }
+
+          .form-group{
+                width: 65%;
+          }
+
+          .form-group label{
+              font-family: Baloo bhai,cursive;
+              font-size: 1.3rem;
+          }
+          
+
+
+
+
+
+
+
+
+          /*footer*/
+
+          footer{
+              background-color: black;
+              color: white;
+              padding: 5px 25px;
+          }
+          
+         
+         
+
+          
+
+        
